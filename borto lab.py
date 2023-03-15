@@ -1,0 +1,13 @@
+num1 = float(input())
+num2 = float(input())
+num3 = float(input())
+num4 = float(input())
+num5 = float(input())
+
+print(f"THAI = {num1}")
+print(f"MATH = {num2}")
+print(f"ENGLISH = {num3}")
+print(f"SCIENCE = {num4}")
+print(f"SPORT = {num5}")
+print(f"---")
+print(f"GPA = {num1+num2+num3+num4+num5%5}")
